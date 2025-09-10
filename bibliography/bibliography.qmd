@@ -1,0 +1,25 @@
+---
+title: "DS190 Bibliography"
+author: "Wendy Zhang"
+format:
+  pdf:
+    number-sections: true
+bibliography: bibliography.bib
+---
+
+## Variability in Analysis
+
+
+@botvinik-nezer2020variability
+
+@kristanto2024multiverse
+
+@kiar2024_variation_neuroimaging
+
+@dafflon2022guided_multiverse
+
+@niso2022_open_reproducible_neuroimaging
+
+@li2024_movingbeyond_variation_restingstate
+
+## References
