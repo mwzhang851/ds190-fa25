@@ -7,14 +7,17 @@ format:
 bibliography: bibliography.bib
 ---
 
-## Variability in Analysis
+## Data Source
 
+I will be using data from the Human Connectome Project (HCP), which is an open-source neuroscience dataset. Specifically, I will be using the functional magnetic resonance imaging (fMRI) gambling task and emotion task in the HCP Young Adult S1200 release ((https://www.humanconnectome.org/hcp-protocols-ya-task-fmri), which included 1080 younger adults aged between 22-35.
 
-@botvinik-nezer2020variability
+## Annotated Bibliography
 
-@kristanto2024multiverse
+@botvinik-nezer2020variability This paper is the pioneer of this field; it's the first study that systematically showed the level of variability in fMRI data analysis in an extreme way. Seventy independent research teams were given the same dataset of raw fMRI data, and were asked to test nine research questions using their own conventional way of preprocessing and data analysis. It was found that the conclusions reached in terms of the hypothesis were almost at a 50-50 split, such that different fMRI preprocessing and analysis pipelines across research groups can lead to huge variability in their conclusions.
 
-@kiar2024_variation_neuroimaging
+@kristanto2024multiverse This is a review paper on graph-based fMRI processing and analysis pipelines. The authors found 220 unique pipelines in 220 papers, which included out of 61 possible steps of analysis pipeline and 17 frequently varied parameters. Common deviations come from structural image preprocessing, noise removal, and global signal regression.
+
+@kiar2024_variation_neuroimaging This paper is a review paper that focused on ways to contribute to reproducible neuroimaging studies. This involves expert opinion (different common practices in the field), tool selection (software packages), computational infrastructure (software versions, brain atlas templates), and analytic decisions (e.g., pipeline in preprocessing). Crucially, they concluded that there is no single stage of data preprocessing that solely contributes to the difference in final results; rather, the difference arises from the interactional complexity between analysis steps.
 
 @dafflon2022guided_multiverse
 
