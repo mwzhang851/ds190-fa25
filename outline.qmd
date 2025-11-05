@@ -1,42 +1,49 @@
 ---
-title: "DS190 Bibliography"
+title: "DS190 Outline"
 author: "Wendy Zhang"
+date: today
 format:
   pdf:
     number-sections: true
-    number-depth: 3
+    number-depth: 5
 ---
 
-## Questions:
+*Questions:*
 a.	Would it be okay if the bulk of writing is the introduction and methods? At this point, I am in the process of replicating Germani et al. (2025) and running their scrips (and trying to debug), so I’m not sure if the current plan is too ambitious. 
 b.	For the discussion, is it okay to include more subjective reflections on the process of learning? Or should it be solely technical (4.a)
 
-##Introduction
-###Review of the problem for multiverse
-####fMRI preprocessing and analysis steps overview
+## Introduction
 
-##Methods
-###Dataset
+### Review of the problem for multiverse
+### MRI preprocessing and analysis steps overview
+
+## Methods
+
+### Dataset
 Human Connectome Project
-###Detailed explanation of Germani et al. (2025), which is an attempt of multiverse analysis 
-i.	12 pipelines for 2 softwares (FSL, SPM) on the motor task
-c.	Current project
-i.	Replicating Germani et al. (2025)
-ii.	12 pipelines for 1 software (FSL) on the gambling task
-3.	Results
-a.	Replicating Germani et al. (2025)
-i.	Issues with repository on github
-1.	Data structure
-2.	Errors in script
-ii.	Efficiency
-b.	Gambling task
-i.	New findings
-4.	Discussion
-a.	Reflection on current project
-i.	What the current project has achieved
-ii.	Data science ethics
-iii.	Multiverse analysis’ issue
-b.	Next steps of the project
-i.	12 pipelines for both FSL and SPL on gambling task
-ii.	Optimizing the script for easier accessibility
+### Procedure
+Detailed explanation of Germani et al. (2025), which is an attempt of multiverse analysis 
+#### 12 pipelines for 2 softwares (FSL, SPM) on the motor task
+### Current project
+#### Replicating Germani et al. (2025)
+#### 12 pipelines for 1 software (FSL) on the gambling task
+
+## Results
+### Replicating Germani et al. (2025)
+#### Issues with repository on github
+##### Data structure
+##### Errors in script
+#### Efficiency
+
+### Running the scripf on the gambling task
+#### New findings
+
+## Discussion
+### Reflection on current project
+#### What the current project has achieved
+#### Data science ethics
+#### Multiverse analysis’ issue
+###	Next steps of the project
+####	12 pipelines for both FSL and SPL on gambling task
+####	Optimizing the script for easier accessibility
 
